@@ -1,6 +1,6 @@
 # Assignment 2 Project Repository – SE/COM S 3190
 
-Welcome to the Assignment 2 Repository for SE/COM S 3190 - Construction of User Interfaces (Spring 2025). This repository contains all the necessary files and resources for completing Assignment 2 - Movie Review Manager Web Application.
+Welcome to the Assignment 2 Repository for SE/COM S 3190 - Construction of User Interfaces (Spring 2025). This repository contains all the necessary files and resources for completing Assignment 2 - Movie Review Manager Web Application. This project can be accessed via LiveShare on VSCode.
 
 ## 📚 Project Overview
 
