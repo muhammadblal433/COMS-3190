@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>EasyCal | Popular Restaurants</title>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="author" content="Brian Craciun and Muhammad Blal" />
+        <meta name="description" content="EasyCal Index Page" />
+        <link rel="apple-touch-icon" sizes="180x180" href="../assets/images/favicon/apple-touch-icon.png"/>
+        <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicon/favicon-32x32.png"/>
+        <link rel="icon" type="image/png" sizes="16x16"href="../assets/images/favicon/favicon-16x16.png"/>
+        <link rel="manifest" href="../assets/images/favicon/site.webmanifest" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="../css/styles.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap" rel="stylesheet">  
+    </head>
+
+
+<!-- Restaurant Modal -->
+<div class="modal fade" id="restaurantModal" tabindex="-1" aria-labelledby="restaurantModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="restaurantModalLabel"></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              <img id="restaurantModalImg" src="" class="img-fluid mb-3 card-img-top-logo" alt="">
+              <p id="restaurantModalType"></p>
+              <h6>Popular Menu Items:</h6>
+              <ul id="restaurantModalMenu"></ul>
+          </div>
+      </div>
+  </div>
+</div>
+
+  <!-- Nav Bar -->
+    <body class="bg-white" data-bs-spy="scroll" data-bs-target="#navbar" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" tabindex="0">
+      <header id="header" class="site-header">
+        <nav class="navbar navbar-expand-lg px-lg-5 bg-white shadow-sm ">
+            <div class="container-fluid py-3">
+                <a class="navbar-brand" href="#logo">
+                    <img src="../assets/images/myotherimages/EasyCal_Logo.png" alt="Logo" style="width: 180px; height: auto;">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarToggler">
+                    <ul class="navbar-nav gap-4 text-end mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link text-uppercase fw-medium" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link text-uppercase fw-medium" href="foodSearch.html">Food Search</a></li>
+                        <li class="nav-item"><a class="nav-link text-uppercase fw-medium" href="popularRecipes.html">Popular Recipes</a></li>
+                        <li class="nav-item"><a class="nav-link text-uppercase fw-medium active" href="popularRestaurants.html">Popular Restaurants</a></li>
+                        <li class="nav-item"><a class="nav-link text-uppercase fw-medium" href="author.html">Authors</a></li>
+                        <li class="nav-item"><a class="nav-link text-uppercase fw-medium" href="futureWork.html">Future Work</a></li>
+                    </ul>                    
+                </div>
+            </div>
+        </nav>
+      </header>
+
+      <section id="popularRestaurant" class="section-padding" style="background-color: #D6A184">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2>Popular Restaurants</h2>
+            </div>
+            <div class="row g-4" id="restaurants-container">
+                <!-- Restaurnats will be dynamically inserted here -->
+            </div>
+        </div>
+    </section>
+
+     <!-- Footer - 1 -->
+     <footer id="footer" class="py-4 bg-primary-subtle">
+        <div class="container text-center">
+          <h2 class="mb-3">Ready to Take a Step Towards a Healthier You?</h2>
+          <h3 class="mb-3"><strong>Transform Your Life & Your Journey To A Better You Starts Today!</strong></h3>
+  
+          <!-- Contact Section -->
+          <h5 class="mt-4">Have a Question? Contact us via e-Mail or send a message on LinkedIn.</h5>
+  
+          <div class="contact-info">
+            <p class="mb-1">
+              <strong>Muhammad Blal</strong> -
+              <a href="mailto:mblal@iastate.edu">mblal@iastate.edu</a>
+              <a href="https://www.linkedin.com/in/muhammadblal/" target="_blank">
+                <img src="../assets/images/myotherimages/LinkedinLogo.png" alt="LinkedIn" class="linkedin-logo"/></a>
+            </p>
+            <p>
+              <strong>Brian Craciun</strong> -
+              <a href="mailto:bcraciun@iastate.edu">bcraciun@iastate.edu</a>
+              <a href="https://www.linkedin.com/in/bcraciun/" target="_blank">
+                <img src="../assets/images/myotherimages/LinkedinLogo.png" alt="LinkedIn" class="linkedin-logo"/></a>
+            </p>
+          </div>
+        </div>
+      </footer>
+  
+      <!-- Footer - 2: Copyright Section -->
+      <hr class="m-0" />
+      <div
+        class="footer-bottom container-fluid text-center bg-primary-subtle py-2">
+        <p class="mb-0"><strong>© Copyright 2024 EasyCal. Project By Muhammad Blal & Brian Craciun.</strong></p>
+      </div>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="../js/popularRestaurant.js"></script>
+    </body>
+</html>
