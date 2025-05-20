@@ -1,0 +1,219 @@
+.card-img-top-food {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.card-img-top-logo {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  border-radius: 15px;
+  padding: 10px;
+  background-color: #fff;
+}
+
+/* custom navbar effect */
+.navbar-nav .nav-link {
+  position: relative;
+  color: #2e2e2e;
+  transition: color 0.3s ease-in-out;
+}
+/* custom navbar effect */
+.navbar-nav .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -5px;
+  width: 0;
+  height: 2px;
+  background-color: #2a6041;
+  transition: all 0.3s ease-in-out;
+  transform: translateX(-50%);
+}
+/* custom navbar effect */
+.navbar-nav .nav-link:hover {
+  color: #2a6041;
+}
+/* custom navbar effect */
+.navbar-nav .nav-link:hover::after {
+  width: 100%;
+}
+
+/* Styling for entire document colorwise */
+:root {
+  font-family: "Playfair", serif;
+  --body-font: "Playfair", serif;
+  --bs-btn-font-family: "Playfair", serif;
+  --bs-primary: #2a6041;
+  --bs-primary-rgb: 42, 96, 65;
+  --bs-secondary: #d6a184;
+  --bs-secondary-rgb: 214, 161, 132;
+  --bs-tertiary: #a87c5f;
+  --bs-tertiary-rgb: 168, 124, 95;
+  --bs-accent: #f7c548;
+  --bs-accent-rgb: 247, 197, 72;
+  --bs-background: #faf5ef;
+  --bs-background-rgb: 250, 245, 239;
+  --bs-text-color: #2e2e2e;
+  --bs-heading-color: #1c1c1c;
+  --bs-btn-bg: var(--bs-primary);
+  --bs-btn-hover-bg: var(--bs-secondary);
+  --bs-btn-color: #ffffff;
+  --bs-link-color: var(--bs-heading-color);
+  --bs-link-hover-color: var(--bs-primary);
+  --bs-primary-bg-subtle: #c8d6af;
+  --bs-secondary-bg: var(--bs-secondary);
+  --bs-secondary-bg-rgb: var(--bs-secondary-rgb);
+  --swiper-theme-color: var(--bs-primary) !important;
+  --swiper-pagination-color: var(--bs-primary) !important;
+}
+
+a:hover {
+  color: var(--bs-link-hover-color);
+}
+
+.btn-outline-primary {
+  color: var(--bs-primary);
+  border-color: var(--bs-primary);
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
+  color: white;
+}
+
+body {
+  font-family: var(--body-font);
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--body-color);
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: capitalize;
+}
+
+h1 {
+  font-size: 51px;
+  font-weight: 600;
+  font-family: var(--body-font);
+}
+
+h2 {
+  font-size: 39px;
+  font-weight: 600;
+  font-family: var(--body-font);
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: 400;
+  font-family: var(--body-font);
+}
+
+h4 {
+  font-size: 21px;
+  font-weight: 600;
+  font-family: var(--body-font);
+}
+
+h5 {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: var(--body-font);
+}
+
+h6 {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: var(--body-font);
+}
+
+/*Button styling IMPORTANT*/
+.btn-primary {
+  font-family: var(--bs-btn-font-family);
+  --bs-btn-color: #fff;
+  --bs-btn-bg: var(--bs-secondary);
+  --bs-btn-border-color: var(--bs-secondary);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: var(--bs-primary);
+  --bs-btn-hover-border-color: var(--bs-primary);
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: var(--bs-primary);
+  --bs-btn-active-border-color: var(--bs-primary);
+  text-transform: capitalize;
+}
+
+.btn-group-lg > .btn,
+.btn-lg {
+  --bs-btn-padding-y: 0.9rem;
+  --bs-btn-padding-x: 2rem;
+}
+
+.section-padding {
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+.section-margin {
+  margin-top: 160px;
+  margin-bottom: 160px;
+}
+
+.site-header {
+  position: fixed;
+  width: 100%;
+  z-index: 999999;
+}
+
+.linkedin-logo {
+  width: 20px;
+  height: auto;
+  transition: transform 0.2s ease-in-out;
+}
+
+.linkedin-logo:hover {
+  transform: scale(1.1);
+}
+
+#pop {
+  border: 2px solid var(--bs-tertiary);
+  transition: all 0.3s ease-in-out;
+  padding: 20px;
+}
+
+#pop:hover {
+  transform: translateY(-3px);
+}
+
+body {
+  font-family: "Playfair", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.3rem;
+}
+
+.ai-suggestion {
+  font-family: var(--body-font);
+  font-size: 0.95rem;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  color: #1c1c1c;
+}
