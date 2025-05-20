@@ -1,0 +1,76 @@
+{
+  "movies1": [
+      {
+          "title": "Interstellar",
+          "year": 2014,
+          "genre": "Sci-Fi",
+          "cast": ["Matthew McConaughey", "Anne Hathaway", "Jessica Chastain"],
+          "director": "Christopher Nolan",
+          "poster": "https://m.media-amazon.com/images/I/71JC2qvPx5L._AC_SL1000_.jpg",
+          "description": "A team explores space to find a new home for humanity."
+      },
+      {
+          "title": "Inception",
+          "year": 2010,
+          "genre": "Sci-Fi",
+          "cast": ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Elliot Page"],
+          "director": "Christopher Nolan",
+          "poster": "https://m.media-amazon.com/images/I/81p+xe8cbnL._AC_SY679_.jpg",
+          "description": "A thief enters the dreams of others to steal secrets."
+      },
+      {
+          "title": "The Martian",
+          "year": 2015,
+          "genre": "Sci-Fi",
+          "cast": ["Matt Damon", "Jessica Chastain", "Kristen Wiig"],
+          "director": "Ridley Scott",
+          "poster": "https://i.ebayimg.com/images/g/DxUAAOSwMAVeY~LM/s-l1200.jpg",
+          "description": "An astronaut is stranded on Mars and must survive until rescue."
+      },
+      {
+          "title": "Gravity",
+          "year": 2013,
+          "genre": "Sci-Fi",
+          "cast": ["Sandra Bullock", "George Clooney", "Ed Harris"],
+          "director": "Alfonso Cuarón",
+          "poster": "https://i.etsystatic.com/17257718/r/il/055673/3191997958/il_570xN.3191997958_lshn.jpg",
+          "description": "Two astronauts fight for survival after an accident in space."
+      },
+      {
+          "title": "Edge of Tomorrow",
+          "year": 2014,
+          "genre": "Sci-Fi",
+          "cast": ["Tom Cruise", "Emily Blunt", "Bill Paxton"],
+          "director": "Doug Liman",
+          "poster": "https://i.ebayimg.com/images/g/WhcAAOxy6B1TlUAb/s-l1200.jpg",
+          "description": "A soldier relives the same battle repeatedly against an alien invasion."
+      },
+      {
+          "title": "Ex Machina",
+          "year": 2014,
+          "genre": "Sci-Fi",
+          "cast": ["Alicia Vikander", "Domhnall Gleeson", "Oscar Isaac"],
+          "director": "Alex Garland",
+          "poster": "https://i.ebayimg.com/images/g/OoYAAOSw~gRVlWLX/s-l1200.jpg",
+          "description": "A young programmer is invited to test an advanced AI robot."
+      },
+      {
+          "title": "The Fifth Element",
+          "year": 1997,
+          "genre": "Sci-Fi",
+          "cast": ["Bruce Willis", "Milla Jovovich", "Gary Oldman"],
+          "director": "Luc Besson",
+          "poster": "https://i.ebayimg.com/images/g/t7gAAOSwmLlX-Hjl/s-l1200.jpg",
+          "description": "A cab driver becomes the protector of a mysterious woman."
+      },
+      {
+          "title": "War of the Worlds",
+          "year": 2005,
+          "genre": "Sci-Fi",
+          "cast": ["Tom Cruise", "Dakota Fanning", "Tim Robbins"],
+          "director": "Steven Spielberg",
+          "poster": "https://m.media-amazon.com/images/I/61nWab8ZsnL._AC_UF894,1000_QL80_.jpg",
+          "description": "A man fights to protect his family during an alien invasion."
+      }
+  ]
+}

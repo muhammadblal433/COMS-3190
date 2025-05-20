@@ -1,0 +1,76 @@
+{
+  "movies2": [
+      {
+          "title": "The Dark Knight",
+          "year": 2008,
+          "genre": "Action",
+          "cast": ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
+          "director": "Christopher Nolan",
+          "poster": "https://m.media-amazon.com/images/I/71dwS9phhCL._AC_UF894,1000_QL80_.jpg",
+          "description": "Batman faces the Joker, a criminal mastermind."
+      },
+      {
+          "title": "Gladiator",
+          "year": 2000,
+          "genre": "Action",
+          "cast": ["Russell Crowe", "Joaquin Phoenix", "Connie Nielsen"],
+          "director": "Ridley Scott",
+          "poster": "https://m.media-amazon.com/images/I/71sj8Yt20qL._AC_UF894,1000_QL80_.jpg",
+          "description": "A Roman general seeks revenge against a corrupt emperor."
+      },
+      {
+          "title": "Mission: Impossible - Fallout",
+          "year": 2018,
+          "genre": "Action",
+          "cast": ["Tom Cruise", "Henry Cavill", "Ving Rhames"],
+          "director": "Christopher McQuarrie",
+          "poster": "https://m.media-amazon.com/images/I/A1M0qlxNo6L.jpg",
+          "description": "Ethan Hunt and his team must prevent a global catastrophe."
+      },
+      {
+          "title": "Deadpool",
+          "year": 2016,
+          "genre": "Action",
+          "cast": ["Ryan Reynolds", "Morena Baccarin", "T.J. Miller"],
+          "director": "Tim Miller",
+          "poster": "https://m.media-amazon.com/images/I/51Gh9OaWVcL._AC_UF894,1000_QL80_.jpg",
+          "description": "A former special forces operative turned mercenary seeks revenge."
+      },
+      {
+          "title": "Taken",
+          "year": 2008,
+          "genre": "Action",
+          "cast": ["Liam Neeson", "Maggie Grace", "Famke Janssen"],
+          "director": "Pierre Morel",
+          "poster": "https://m.media-amazon.com/images/I/41AvC+TM9zL._AC_UF894,1000_QL80_.jpg",
+          "description": "A former CIA operative fights to rescue his kidnapped daughter."
+      },
+      {
+          "title": "Lethal Weapon",
+          "year": 1987,
+          "genre": "Action",
+          "cast": ["Mel Gibson", "Danny Glover", "Gary Busey"],
+          "director": "Richard Donner",
+          "poster": "https://m.media-amazon.com/images/I/61bPX0WJwuS._AC_UF894,1000_QL80_.jpg",
+          "description": "Two mismatched detectives team up against drug smugglers."
+      },
+      {
+          "title": "The Bourne Identity",
+          "year": 2002,
+          "genre": "Action",
+          "cast": ["Matt Damon", "Franka Potente", "Chris Cooper"],
+          "director": "Doug Liman",
+          "poster": "https://m.media-amazon.com/images/I/71XFEDVbwRL.jpg",
+          "description": "A man suffering from amnesia discovers he is a trained assassin."
+      },
+      {
+          "title": "Speed",
+          "year": 1994,
+          "genre": "Action",
+          "cast": ["Keanu Reeves", "Sandra Bullock", "Dennis Hopper"],
+          "director": "Jan de Bont",
+          "poster": "https://m.media-amazon.com/images/I/51L6CqLkx3L._AC_UF894,1000_QL80_.jpg",
+          "description": "A cop must stop a bomb-rigged bus from exploding."
+      }
+  ]
+}

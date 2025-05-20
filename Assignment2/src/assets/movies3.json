@@ -1,0 +1,76 @@
+{
+  "movies3": [
+      {
+          "title": "Forrest Gump",
+          "year": 1994,
+          "genre": "Drama",
+          "cast": ["Tom Hanks", "Robin Wright", "Gary Sinise"],
+          "director": "Robert Zemeckis",
+          "poster": "https://i.ebayimg.com/images/g/y9gAAOSwUQhi-9Nq/s-l1200.jpg",
+          "description": "The life story of a slow-witted but kind-hearted man."
+      },
+      {
+          "title": "The Shawshank Redemption",
+          "year": 1994,
+          "genre": "Drama",
+          "cast": ["Tim Robbins", "Morgan Freeman", "Bob Gunton"],
+          "director": "Frank Darabont",
+          "poster": "https://m.media-amazon.com/images/I/71715eBi1sL._AC_UF894,1000_QL80_.jpg",
+          "description": "Two imprisoned men bond over years, finding solace and redemption."
+      },
+      {
+          "title": "A Beautiful Mind",
+          "year": 2001,
+          "genre": "Drama",
+          "cast": ["Russell Crowe", "Ed Harris", "Jennifer Connelly"],
+          "director": "Ron Howard",
+          "poster": "https://m.media-amazon.com/images/I/71Gl-hf18CL._AC_UF894,1000_QL80_.jpg",
+          "description": "A brilliant but asocial mathematician struggles with schizophrenia."
+      },
+      {
+          "title": "The Pursuit of Happyness",
+          "year": 2006,
+          "genre": "Drama",
+          "cast": ["Will Smith", "Jaden Smith", "Thandiwe Newton"],
+          "director": "Gabriele Muccino",
+          "poster": "https://i.ebayimg.com/images/g/XLEAAOSw-ktf4ISy/s-l1200.jpg",
+          "description": "A struggling salesman takes custody of his son as he embarks on a life-changing journey."
+      },
+      {
+          "title": "Slumdog Millionaire",
+          "year": 2008,
+          "genre": "Drama",
+          "cast": ["Dev Patel", "Freida Pinto", "Madhur Mittal"],
+          "director": "Danny Boyle",
+          "poster": "https://i.etsystatic.com/29534914/r/il/79bbe0/5492961607/il_fullxfull.5492961607_4704.jpg",
+          "description": "A Mumbai teenager reflects on his life after being accused of cheating on a game show."
+      },
+      {
+          "title": "12 Years a Slave",
+          "year": 2013,
+          "genre": "Drama",
+          "cast": ["Chiwetel Ejiofor", "Michael Fassbender", "Lupita Nyong'o"],
+          "director": "Steve McQueen",
+          "poster": "https://m.media-amazon.com/images/I/61QFAKXbb5L.jpg",
+          "description": "A free black man is kidnapped and sold into slavery in the 1800s."
+      },
+      {
+          "title": "Manchester by the Sea",
+          "year": 2016,
+          "genre": "Drama",
+          "cast": ["Casey Affleck", "Michelle Williams", "Kyle Chandler"],
+          "director": "Kenneth Lonergan",
+          "poster": "https://m.media-amazon.com/images/I/61aYi4WoBVL.jpg",
+          "description": "A man returns to his hometown after the sudden death of his brother and struggles with his past."
+      },
+      {
+          "title": "Marriage Story",
+          "year": 2019,
+          "genre": "Drama",
+          "cast": ["Adam Driver", "Scarlett Johansson", "Laura Dern"],
+          "director": "Noah Baumbach",
+          "poster": "https://m.media-amazon.com/images/I/91Gnzr3mDYL._AC_UF894,1000_QL80_.jpg",
+          "description": "A stage director and his actor wife struggle through a grueling divorce."
+      }
+  ]
+}
