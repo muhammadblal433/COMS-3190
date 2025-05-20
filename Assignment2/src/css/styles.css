@@ -1,0 +1,7 @@
+/* Style for the Movie Cards */
+.movie-card {
+  transition: transform 0.3s ease-in-out;
+}
+.movie-card:hover {
+  transform: scale(1.03);
+}
